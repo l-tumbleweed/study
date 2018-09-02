@@ -5,6 +5,7 @@
 - cd 02-express && npm install
 - git init
 - eslint-config-airbnb
+- eslint --init
 
 ```shell
  change directory:
@@ -16,3 +17,30 @@
    run the app:
      $ DEBUG=02-express:* npm start
 ```
+### Express MVC
+- M 
+  + /models
+  + /servers
+- V 
+  + /views
+  + /public
+- C 
+  + /routes
+- entrance /bin/www
+
+### mongoDB
+
+### mongoose
+
+### acync
+- Promise + async + await
+
+### logger
+- winston
+- winston-daily-rotate-file
+- /errors
+- /middleware
+- /utils
+
+### 鉴权
+- OAuth2
